@@ -1,2 +1,1 @@
-rm
- -rf /usr/share/tomcat7/webapps/HelloWorld-Maven.war
+rm -rf  /usr/share/tomcat7/webapps/HelloWorld-Maven.war
