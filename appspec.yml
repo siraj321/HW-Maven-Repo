@@ -3,7 +3,7 @@ os: linux
 files:
   - source: /target/HelloWorld-Maven.war
     destination: /usr/share/tomcat7/webapps
-    jhhkjh
+    
 hooks:
   ApplicationStop:
     - location: scripts/stop_application
