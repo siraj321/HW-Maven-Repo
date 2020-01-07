@@ -42,8 +42,9 @@ public class WriterThread extends Thread {
 
 	public static void main(String args[]) {
 		ConcurrentMap<Integer, String> mapp = new ConcurrentHashMap<Integer, String>();
-		
-		WriterThread wt = new WriterThread(mapp, "One", 1);
-		wt.run();
+		Thread t1 = new WriterThread(mapp, "One", 1);
+		t1.start();
+//		WriterThread wt = new WriterThread(mapp, "One", 1);
+//		wt.run();
 	}
 }
